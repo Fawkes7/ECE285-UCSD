@@ -1,0 +1,41 @@
+parameters (50, 0.2, 0.05, 200)
+Training acc:  0.110375
+Validation acc:  0.1145
+parameters (100, 0.2, 0.05, 200)
+Training acc:  0.106
+Validation acc:  0.102
+parameters (200, 0.2, 0.05, 200)
+Training acc:  0.09325
+Validation acc:  0.091
+parameters (100, 0.15, 0.1, 400)
+Training acc:  0.122
+Validation acc:  0.1185
+
+parameters (100, 0.1, 0.1, 400)
+Training acc:  0.198875
+Validation acc:  0.1975
+parameters (100, 0.05, 0.1, 250)
+Training acc:  0.2405
+Validation acc:  0.2385
+parameters (100, 0.05, 0.15, 250)
+Training acc:  0.08725
+Validation acc:  0.0715
+
+Decay
+
+parameters (100, 0.15, 0.1, 250)
+Training acc:  0.079625
+Validation acc:  0.077
+
+parameters (100, 0.1, 0.1, 401)
+Training acc:  0.23875
+Validation acc:  0.2395
+
+parameters (200, 0.1, 0.05, 401)
+Training acc:  0.325625
+Validation acc:  0.31
+
+parameters: ((200, 0.1, 0.01, 401))
+Training acc 0.58375
+Validation acc 0.425
+------best above ----
