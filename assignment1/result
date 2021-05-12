@@ -38,4 +38,7 @@ Validation acc:  0.31
 parameters: ((200, 0.1, 0.01, 401))
 Training acc 0.58375
 Validation acc 0.425
+------best above ----parameters: ((200, 0.05, 0.01, 401))
+Training acc 0.5185
+Validation acc 0.3975
 ------best above ----

@@ -28,7 +28,7 @@ class SGD(Optimizer):
         self.weight_decay = weight_decay
     
     def step(self, epoch):
-        lr_decay = 0.75 ** (epoch / 25)
+        lr_decay = 1 # 0.75 ** (epoch / 25)
         for module in reversed(self.model._modules):
             for para, grad in zip(module.parameters, module.grads):
                 assert grad is not None, "No Gradient"
