@@ -1,0 +1,110 @@
+resnet 18
+learning_rate,  0.001
+weight_decay,  0.0005
+ExponentialLR,  0.75
+(39.70)
+
+
+resnet 18
+learning_rate,  0.001
+weight_decay,  0.0005
+ExponentialLR,  0.7
+(41.80)
+
+
+resnet 18
+learning_rate,  0.01
+weight_decay,  0.0005
+ExponentialLR,  0.6
+441 / 1000 correct (44.10)
+
+resnet 18
+learning_rate,  0.01
+weight_decay,  0.0005
+ExponentialLR,  0.9
+(44.80)
+
+
+resnet 18
+learning_rate,  0.01
+weight_decay,  0.005
+ExponentialLR,  0.9
+Got 447 / 1000 correct (44.70)
+
+T.RandomCrop(32, padding=4),
+T.RandomHorizontalFlip(),
+T.ColorJitter(brightness=0.1, contrast=0.1, saturation=0.1, hue=0.1)
+resnet 18
+learning_rate,  0.01
+weight_decay,  0.001
+ExponentialLR,  0.9
+Dead
+
+T.RandomHorizontalFlip(),
+resnet 18
+learning_rate,  0.01
+weight_decay,  0.001
+ExponentialLR,  0.9
+0.4864
+
+T.RandomCrop(32, padding=4),
+T.RandomHorizontalFlip(p=0.1),
+0.4753
+
+T.RandomCrop(32, padding=4),
+T.RandomHorizontalFlip(p=0.5),
+(46.60)
+
+
+resnet 18
+torch.optim.Adam
+learning_rate,  0.01
+weight_decay,  0
+ExponentialLR,  0.9
+(46.60)
+
+
+decoder
+nn.Sequential(nn.Linear(in_features, 1024),
+nn.Linear(1024, n_classes))
+0.4692
+
+resnet34
+learning_rate,  0.01
+weight_decay,  0.001
+ExponentialLR,  0.9
+(46.60)
+
+40 epoch
+55.89
+
+
+T.RandomCrop(32, padding=4),
+                T.RandomHorizontalFlip(p=0.5),
+                # T.ColorJitter(brightness=0.1, contrast=0.1, saturation=0.1, hue=0.1)
+                T.RandomAffine(5,(0,0.2),(0.9,1.1)),
+resnet18
+learning_rate = 1e-2
+gamma = 0.9
+weight_decay = 1e-3
+0.4683
+
+cifar
+0.4006
+
+cifar
+lr 0.1
+gamma = 0.7
+padding=2
+learning_rate = 1e-3
+gamma = 0.9
+weight_decay = 1e-4
+acc 0.5302
+
+first two blocks(layers)
+0.3937
+
+100epoch
+0.5997
+
+
