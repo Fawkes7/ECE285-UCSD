@@ -1,11 +1,12 @@
 assignment1/weride_oa.py
 assignment1/dataset/
+assignment1/dataset/result
+assignment1/*.pyc
 Project_Proposal/
 assignment2/*.pdf
 assignment2/*.html
 assignment2/*.png
 assignment2/log/
 assignment2/result
-assignment1/dataset/
 Paper/
 *.zip
