@@ -1,3 +1,9 @@
 assignment1/weride_oa.py
-assignment1/dataset/cifar-100-python
+assignment1/dataset/
+assignment2/datasets/
+assignment2/*.html
+assignment2/*.pdf
+assignment2/*.png
+Paper/
+Project_Proposal/
 
