@@ -4,5 +4,8 @@ Project_Proposal/
 assignment2/*.pdf
 assignment2/*.html
 assignment2/*.png
+assignment2/log/
 assignment2/result
+assignment1/dataset/
 Paper/
+*.zip
