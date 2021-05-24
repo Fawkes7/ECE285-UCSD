@@ -1,6 +1,6 @@
 assignment1/weride_oa.py
 assignment1/dataset/
-assignment1/dataset/result
+assignment1/result
 assignment1/*.pyc
 Project_Proposal/
 assignment2/datasets/
@@ -9,5 +9,8 @@ assignment2/*.html
 assignment2/*.png
 assignment2/log/
 assignment2/result
+assignment3/dataset/
+assignment4/dataset/
+
 Paper/
 *.zip
